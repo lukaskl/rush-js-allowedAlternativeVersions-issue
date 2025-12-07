@@ -1,0 +1,11 @@
+{
+  "name": "example-19-2-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building package 19-2-0'"
+  },
+  "dependencies": {
+    "react": "19.2.0"
+  }
+}

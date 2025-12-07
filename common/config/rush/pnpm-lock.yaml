@@ -1,34 +1,39 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: false
+  autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: fm2bgttvmfglngapbjspr7zf2u
+pnpmfileChecksum: sha256-La8sfCMI7irxJPTW6u4mJb4vNiyLrXeEbKaXv5G3dL0=
 
 importers:
 
-  .:
+  .: {}
+
+  ../../packages/example-19-0-0:
     dependencies:
-      '@rush-temp/example-package-a':
-        specifier: file:./projects/example-package-a.tgz
-        version: file:projects/example-package-a.tgz
-      '@rush-temp/example-package-b':
-        specifier: file:./projects/example-package-b.tgz
-        version: file:projects/example-package-b.tgz
+      react:
+        specifier: 19.0.0
+        version: 19.0.0
+
+  ../../packages/example-19-0-1:
+    dependencies:
+      react:
+        specifier: 19.0.1
+        version: 19.0.1
 
 packages:
 
-  '@rush-temp/example-package-a@file:projects/example-package-a.tgz':
-    resolution: {integrity: sha512-BsKen1EHLuXH76EhlF+5RRLJ+DOwHV+Ta8xswbxJ4+LyBaAVeLato9vXe7Rrw3qdRj2rBJ7lNLPugdDlbBsvuw==, tarball: file:projects/example-package-a.tgz}
-    version: 0.0.0
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+    engines: {node: '>=0.10.0'}
 
-  '@rush-temp/example-package-b@file:projects/example-package-b.tgz':
-    resolution: {integrity: sha512-VbOZ59u7Wk6wjpY0ZNi8bbmZVTNGXp53Kec+QDaGbNIG+dKxO8YD1pd5qp0x3XxP+kcr0MRWKMqnVjylHD7htg==, tarball: file:projects/example-package-b.tgz}
-    version: 0.0.0
+  react@19.0.1:
+    resolution: {integrity: sha512-nVRaZCuEyvu69sWrkdwjP6QY57C+lY+uMNNMyWUFJb9Z/JlaBOQus7mSMfGYsblv7R691u6SSJA/dX9IRnyyLQ==}
+    engines: {node: '>=0.10.0'}
 
 snapshots:
 
-  '@rush-temp/example-package-a@file:projects/example-package-a.tgz': {}
+  react@19.0.0: {}
 
-  '@rush-temp/example-package-b@file:projects/example-package-b.tgz': {}
+  react@19.0.1: {}

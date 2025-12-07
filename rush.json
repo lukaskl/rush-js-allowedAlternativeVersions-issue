@@ -6,14 +6,13 @@
   "ensureConsistentVersions": true,
   "projectFolderMinDepth": 2,
   "projectFolderMaxDepth": 2,
+
+  // at `allowedAlternativeVersions` we have:
+  //      "react": ["19.0.1", "19.2.1"]
   "projects": [
-    {
-      "packageName": "example-package-a",
-      "projectFolder": "packages/example-package-a"
-    },
-    {
-      "packageName": "example-package-b",
-      "projectFolder": "packages/example-package-b"
-    }
+    { "packageName": "example-19-0-0", "projectFolder": "packages/example-19-0-0" },
+    { "packageName": "example-19-0-1", "projectFolder": "packages/example-19-0-1" },
+    // { "packageName": "example-19-2-0", "projectFolder": "packages/example-19-2-0" },
+    // { "packageName": "example-19-2-1", "projectFolder": "packages/example-19-2-1" }
   ]
 }
