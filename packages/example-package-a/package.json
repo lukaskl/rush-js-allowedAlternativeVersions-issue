@@ -1,0 +1,10 @@
+{
+  "name": "example-package-a",
+  "version": "1.0.0",
+  "description": "Example package A",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building package A' && node index.js"
+  },
+  "dependencies": {}
+}

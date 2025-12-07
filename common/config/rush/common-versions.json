@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/common-versions.schema.json",
+  "allowedAlternativeVersions": {
+    "next": ["15.3.6", "15.5.7"]
+  }
+}

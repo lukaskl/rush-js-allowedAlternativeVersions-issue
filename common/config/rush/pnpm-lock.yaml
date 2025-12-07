@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+pnpmfileChecksum: fm2bgttvmfglngapbjspr7zf2u
+
+importers:
+
+  .:
+    dependencies:
+      '@rush-temp/example-package-a':
+        specifier: file:./projects/example-package-a.tgz
+        version: file:projects/example-package-a.tgz
+      '@rush-temp/example-package-b':
+        specifier: file:./projects/example-package-b.tgz
+        version: file:projects/example-package-b.tgz
+
+packages:
+
+  '@rush-temp/example-package-a@file:projects/example-package-a.tgz':
+    resolution: {integrity: sha512-BsKen1EHLuXH76EhlF+5RRLJ+DOwHV+Ta8xswbxJ4+LyBaAVeLato9vXe7Rrw3qdRj2rBJ7lNLPugdDlbBsvuw==, tarball: file:projects/example-package-a.tgz}
+    version: 0.0.0
+
+  '@rush-temp/example-package-b@file:projects/example-package-b.tgz':
+    resolution: {integrity: sha512-VbOZ59u7Wk6wjpY0ZNi8bbmZVTNGXp53Kec+QDaGbNIG+dKxO8YD1pd5qp0x3XxP+kcr0MRWKMqnVjylHD7htg==, tarball: file:projects/example-package-b.tgz}
+    version: 0.0.0
+
+snapshots:
+
+  '@rush-temp/example-package-a@file:projects/example-package-a.tgz': {}
+
+  '@rush-temp/example-package-b@file:projects/example-package-b.tgz': {}
